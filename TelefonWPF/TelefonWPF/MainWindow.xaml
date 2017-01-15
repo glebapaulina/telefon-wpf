@@ -1,0 +1,34 @@
+﻿<Window x:Class="TelefonWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TelefonWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Label Content="Dodaj:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29,43,0,0"/>
+        <Button x:Name="polaczenie" Click="polaczenie_Click" Content="Połączenie" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="118,46,0,0"/>
+        <Button x:Name="sms" Click="sms_Click" Content="Sms" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="229,46,0,0"/>
+        <Button x:Name="internet" Click="internet_Click" Content="Internet" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="337,46,0,0"/>
+        <Grid x:Name="GridPolaczenie" HorizontalAlignment="Left" Height="174" VerticalAlignment="Top" Width="169" Margin="64,95,0,0" Visibility="Hidden">
+            <Label Content="Numer:" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox x:Name="numerpolaczenie" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="10,26,0,0"/>
+            <Label Content="Czas połączenia:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,67,0,0"/>
+            <TextBox x:Name="czaspolaczenia" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Margin="10,98,0,0"/>
+            <Button x:Name="dodajpolaczenie" Click="dodajpolaczenie_Click" Content="Dodaj" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="41,145,0,0"/>
+        </Grid>
+        <Grid x:Name="GridSms" HorizontalAlignment="Left" Height="174" VerticalAlignment="Top" Width="183" Margin="50,95,0,0" Visibility="Hidden">
+            <Label Content="Numer:" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox x:Name="numersms" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Margin="10,31,0,0"/>
+            <Button x:Name="dodajsms" Click="dodajsms_Click" Content="Dodaj" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="37,105,0,0"/>
+        </Grid>
+        <Grid x:Name="GridInternet" HorizontalAlignment="Left" Height="174" VerticalAlignment="Top" Width="169" Margin="64,95,0,0" Visibility="Hidden">
+            <Label Content="Ilość MB:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
+            <TextBox x:Name="iloscmb" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="25,41,0,0"/>
+            <Button x:Name="dodajinternet" Click="dodajinternet_Click" Content="Dodaj" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="39,126,0,0"/>
+        </Grid>
+        <TextBlock x:Name="biling" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="285,109,0,0" Height="132" Width="194"/>
+        <Button x:Name="zapisz" Click="zapisz_Click" Content="Zapisz" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="319,254,0,0"/>
+    </Grid>
+</Window>

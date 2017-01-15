@@ -1,0 +1,14 @@
+c:\users\paulinka\documents\visual studio 2015\Projects\TelefonWPF\TelefonWPF\bin\Debug\TelefonWPF.exe.config
+c:\users\paulinka\documents\visual studio 2015\Projects\TelefonWPF\TelefonWPF\obj\Debug\TelefonWPF.csprojResolveAssemblyReference.cache
+c:\users\paulinka\documents\visual studio 2015\Projects\TelefonWPF\TelefonWPF\obj\Debug\MainWindow.g.cs
+c:\users\paulinka\documents\visual studio 2015\Projects\TelefonWPF\TelefonWPF\obj\Debug\App.g.cs
+c:\users\paulinka\documents\visual studio 2015\Projects\TelefonWPF\TelefonWPF\obj\Debug\TelefonWPF_MarkupCompile.cache
+c:\users\paulinka\documents\visual studio 2015\Projects\TelefonWPF\TelefonWPF\obj\Debug\TelefonWPF_MarkupCompile.lref
+C:\Users\Paulinka\documents\visual studio 2015\Projects\TelefonWPF\TelefonWPF\bin\Debug\TelefonWPF.exe
+C:\Users\Paulinka\documents\visual studio 2015\Projects\TelefonWPF\TelefonWPF\bin\Debug\TelefonWPF.pdb
+C:\Users\Paulinka\documents\visual studio 2015\Projects\TelefonWPF\TelefonWPF\obj\Debug\MainWindow.baml
+C:\Users\Paulinka\documents\visual studio 2015\Projects\TelefonWPF\TelefonWPF\obj\Debug\TelefonWPF.g.resources
+C:\Users\Paulinka\documents\visual studio 2015\Projects\TelefonWPF\TelefonWPF\obj\Debug\TelefonWPF.Properties.Resources.resources
+C:\Users\Paulinka\documents\visual studio 2015\Projects\TelefonWPF\TelefonWPF\obj\Debug\TelefonWPF.csproj.GenerateResource.Cache
+C:\Users\Paulinka\documents\visual studio 2015\Projects\TelefonWPF\TelefonWPF\obj\Debug\TelefonWPF.exe
+C:\Users\Paulinka\documents\visual studio 2015\Projects\TelefonWPF\TelefonWPF\obj\Debug\TelefonWPF.pdb
